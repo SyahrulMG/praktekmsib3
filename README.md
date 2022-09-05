@@ -1,2 +1,6 @@
-# praktekmsib3
-ini projek bersama yang dibuat untuk msib batch3
+kumpulan materi msib batch3
+HTML
+CSS
+JavaScript
+PHP
+
