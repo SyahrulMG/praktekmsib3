@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  h2{
+    font-family: serif;
+    font-style: italic; 
+    color: white;
+    word-spacing: 5px;  
+  }
+
+  h2:first-line{
+    color: black;  
+  }
+  
+  /* Style the header */
+  .header {
+    background-image: url('bndr.jpg');
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: auto;
+    background-color:gray;
+  }
+  
+  /* Style the topnav links */
+  nav{
+    position: relative;
+    margin: 27px auto 0;
+    width: 590px;
+    height: 50px;
+    background: #7c8ea0;
+    border-radius: 8px;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0;
+  }
+  a {
+    
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    line-height: 50px; 
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+  }
+
+  nav .animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background: #a02323;
+    width: 100px;
+    border-radius: 8px;
+    transition: 1s ease 0s;
+  }
+  a:nth-child(1) {
+    width: 100px;   
+  }
+   nav .start-home,a:nth-child(1):hover~.animation {
+    width: 110px;   
+    left: 100;
+  }
+  a:nth-child(2) {
+    width: 110px;   
+  }
+  nav .start-about,a:nth-child(2):hover~.animation {
+    width: 110px;   
+    left: 100px;
+  }
+  a:nth-child(3) {
+    width: 160px;   
+  }
+  nav .start-blog,a:nth-child(3):hover~.animation {
+    width: 110px;   
+    left: 230px;
+  }
+  a:nth-contact(4) {
+    width: 160px;   
+  }
+  nav .start-home,a:nth-child(4):hover~.animation {
+    width: 100px;   
+    left: 350px;
+  }
+
+.box {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(153, 34, 34);
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: -10px 5px 10px ;
+  left: 50px;
+}
+.box:hover{
+  top:-15px;
+}
+
+  
+  
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 25%;
+    background-size: 70%;
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 50%;
+    background-image: url('IK.jpg');
+    background-size: 100%;
+    background-repeat: repeat-y;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 900px) {
+    .column.side, .column.middle  {
+      width: 100%;
+    }
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+   
+
+h2 {
+    color: white;
+
+}
+p{
+    color: rgb(185, 144, 144);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+  color: #a02323;
+  text-align: justify;
+}

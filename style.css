@@ -1,0 +1,104 @@
+p{
+    color:WHITE;
+    text-align: justify;
+    font-family: calibry, vernada, comic sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger; 
+    font-style: italic;
+ }
+ body{
+    background-image: url('OIP.jpg');
+    background-repeat: repeat-x;
+    background-position: top right;
+    background-color: black;
+    background-size: 20%;
+    background-attachment:local;
+    margin:0cm 2cm /*margin top-botom=0cm, margin left-right2cm*/
+}
+h1,h2{
+   text-shadow: 3px 3px;
+   color: greenyellow;
+   
+}
+
+ hr{
+    border-width: 2px;
+    border-color: rgb(224, 146, 28);
+    border-style: double;
+    margin: 5px 0px;
+ }
+ /*grouping*/
+ fieldset, legend{
+    border: outset 5px;
+    border-radius: 30px;
+ }
+ legend{
+    padding: 2px;
+    background-color: gray;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 5px;
+ }
+ul{
+   list-style-image: url("musik.gif");
+}
+ul.hobi{
+   list-style: disc;
+}
+ul.pendidikan{
+   list-style-image: ;
+}
+ol{
+    list-style-image: url("jempol.gif");
+    color: chocolate;
+}
+img{
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+}
+/*------------------------------pseudo clas----------------*/
+
+div#menu{
+   text-align: center;
+   font-family: Georgia, Times, 'Times New Roman', serif;
+   text-decoration: none;
+   padding: 20px;
+}
+a:active, a :visited, a:active {
+   text-decoration: none;
+   color:burlywood;
+   font-size: 14pt;
+   border: 1px solid ;
+   padding: 5px;
+   background: gold;
+   
+}
+a:hover {
+   text-decoration: none;
+   color:pink;
+   font-size: 14pt;
+   border: 1px solid greenyellow ;
+   padding: 5px;
+   background: yellowgreen;
+}
+   /*-----pseudo elemen-------*/
+
+p.p1:first-letter{
+color: red;
+font-size: 48pt;
+font-weight: bold;
+font-family: algerian,jokerman;
+float: left;
+padding-right: 10px;
+padding-bottom: 2px;
+
+}
+p.p1:first-line{
+	color:cyan;
+	font-style:italic;
+}
+ul.hobi{
+
+}
+
+   
